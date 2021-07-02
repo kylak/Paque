@@ -1,0 +1,58 @@
+h1 {
+	text-align: center;
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+details summary:hover {
+	background-color: black;
+	color: white;
+}
+
+#texteD {
+	border-bottom: 1px black solid;
+}
+
+#texte {
+	display:flex;
+	border-top: 1px black solid;
+	height: 40%;
+}
+
+#texte div {
+	margin: auto;
+	background-color: red;
+}
+
+#texte div header {
+	
+}
+
+#commentaire {
+	border-bottom: 1px black solid;
+}
+
+#commentaire summary {
+	margin-right: 5px;
+}
+
+@font-face {
+ font-family: "KoineGreek";
+ src: url("https://greekcntr.org/downloads/KoineGreek.ttf") format("truetype");
+}
+
+body h1 span {
+	font-family: "KoineGreek";
+	font-size : 28px;
+}
+
+summary {
+  outline: none;
+}
+
+summary:focus {
+outline:0;
+}
+
+html {
+  overflow-y: scroll;
+}
