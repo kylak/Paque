@@ -20,12 +20,13 @@ details summary:hover {
 }
 
 #texte div {
-	margin: auto;
-	background-color: red;
+	flex: auto;
+	border-right: 1px black solid;
 }
 
 #texte div header {
-	
+	text-align: center;
+	border-bottom: 1px black solid;
 }
 
 #commentaire {
