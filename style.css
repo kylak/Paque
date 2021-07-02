@@ -6,6 +6,7 @@ h1 {
 details summary:hover {
 	background-color: #989898;
 	color: yellow;
+	cursor: pointer;
 }
 
 #texteD {
