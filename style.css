@@ -39,6 +39,7 @@ details summary:hover {
 @font-face {
  font-family: "KoineGreek";
  src: url("https://greekcntr.org/downloads/KoineGreek.ttf") format("truetype");
+ font-display: block;
 }
 
 body h1 span {
