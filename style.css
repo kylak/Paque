@@ -4,8 +4,8 @@ h1 {
 }
 
 details summary:hover {
-	background-color: black;
-	color: white;
+	background-color: #989898;
+	color: yellow;
 }
 
 #texteD {
