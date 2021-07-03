@@ -20,8 +20,21 @@ details summary:hover {
 }
 
 #texte div {
-	flex: auto;
+	flex: 1;
 	border-right: 1px black solid;
+	display:flex;
+	flex-flow: column;
+}
+
+#texte div p {
+	margin: 0px;
+	padding: 3px;
+	overflow: auto;
+	word-break: break-word;
+}
+
+#lxx {
+	font-family: "KoineGreek";
 }
 
 #texte div header {
