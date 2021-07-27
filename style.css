@@ -80,9 +80,25 @@ details summary:hover {
  font-display: block;
 }
 
-body h1 span {
+@font-face {
+ font-family: "Marcellus";
+ src: url("/Users/gustavberloty/Library/Fonts/MarcellusSC-Regular.ttf") format("truetype");
+ font-display: block;
+}
+
+@font-face {
+ font-family: "PlayfairDisplay";
+ src: url("/Users/gustavberloty/Library/Fonts/PlayfairDisplaySC-Regular.ttf") format("truetype");
+ font-display: block;
+}
+
+body h1 #grec {
 	font-family: "KoineGreek";
 	font-size : 28px;
+}
+
+body h1 #fr {
+	font-family:  "Marcellus";
 }
 
 summary {
