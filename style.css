@@ -27,8 +27,11 @@ details summary:hover {
 	padding: 3px;
 	padding-left: 0px;
 	padding-right: 0px;
-	overflow: auto;
+	--a : calc(100% - var(--hauteur-header));
+	--b : calc(var(--a) - 6px); /* j'ai enlever 3px en plus dans les 6 de manière un peu arbitraire*/
+	height: var(--b);
 	word-break: break-word;
+	overflow: auto;
 }
 
 #texte flex-item:nth-child(1) p {

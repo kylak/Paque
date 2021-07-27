@@ -1,6 +1,6 @@
 flex {
     display: flex;
-    overflow: hidden;
+    overflow: none;
 }
 
 /* flex-item > flex {
@@ -17,10 +17,7 @@ flex.v {
     flex-direction: column;
 }
 
-flex-item {
-    /* display: flex; */
-    /* position: relative; */
-    /* overflow: hidden; */
+flex-item p {
     overflow: auto;
 }
 
