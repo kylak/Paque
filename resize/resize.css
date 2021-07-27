@@ -1,6 +1,6 @@
 flex {
     display: flex;
-    overflow: none;
+    overflow: hidden;
 }
 
 /* flex-item > flex {
@@ -15,10 +15,6 @@ flex.h {
 
 flex.v {
     flex-direction: column;
-}
-
-flex-item p {
-    overflow: auto;
 }
 
 /* voir quelle est la taille de la bordure du header pour avoir la même, 
@@ -41,3 +37,5 @@ flex.h > flex-resizer {
 flex.v > flex-resizer {
     cursor: row-resize;
 }
+
+/* source: https://stackoverflow.com/a/59407522/6687981 */

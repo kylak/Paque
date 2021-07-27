@@ -14,6 +14,12 @@ details summary:hover {
 	cursor: pointer;
 }
 
+/*
+.v {
+	height: 100%;
+}
+*/
+
 #texteD {
 	border-bottom: 1px black solid;
 }
