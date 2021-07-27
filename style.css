@@ -80,17 +80,13 @@ details summary:hover {
  font-display: block;
 }
 
+/*
 @font-face {
  font-family: "Marcellus";
- src: url("/Users/gustavberloty/Library/Fonts/MarcellusSC-Regular.ttf") format("truetype");
+ src: url("https://github.com/kylak/Paque/blob/659efac6f19119bf7b2b3fca30f1c0ca82ec437a/font/MarcellusSC-Regular.ttf?raw=true") format("truetype");
  font-display: block;
 }
-
-@font-face {
- font-family: "PlayfairDisplay";
- src: url("/Users/gustavberloty/Library/Fonts/PlayfairDisplaySC-Regular.ttf") format("truetype");
- font-display: block;
-}
+*/
 
 body h1 #grec {
 	font-family: "KoineGreek";
@@ -98,7 +94,8 @@ body h1 #grec {
 }
 
 body h1 #fr {
-	font-family:  "Marcellus";
+	/*font-family:  "Marcellus";*/
+	font-size: 0.95em;
 }
 
 summary {
