@@ -8,8 +8,9 @@ h1 {
 }
 
 details summary:hover {
-	background-color: #989898;
-	color: yellow;
+	background-color: rgb(187, 187, 187);
+	color: white;
+	font-weight: bold;
 	cursor: pointer;
 }
 
