@@ -1,3 +1,7 @@
+:root {
+	--hauteur-header : 1.1em;
+}
+
 h1 {
 	text-align: center;
 	font-family: 'Frank Ruhl Libre', serif;
@@ -14,32 +18,41 @@ details summary:hover {
 }
 
 #texte {
-	display:flex;
 	border-top: 1px black solid;
 	height: 40%;
 }
 
-#texte div {
-	flex: 1;
-	border-right: 1px black solid;
-	display:flex;
-	flex-flow: column;
-}
-
-#texte div p {
+#texte flex-item p {
 	margin: 0px;
 	padding: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
 	overflow: auto;
 	word-break: break-word;
+}
+
+#texte flex-item:nth-child(1) p {
+	padding-left: 3px;
+}
+
+#texte flex-item:nth-child(3) p {
+	padding-right: 3px;
 }
 
 #lxx {
 	font-family: "KoineGreek";
 }
 
-#texte div header {
+#texte flex-item header {
+	height: var(--hauteur-header);
 	text-align: center;
 	border-bottom: 1px black solid;
+}
+
+#texte flex-resizer div {
+	height: var(--hauteur-header);
+	border-bottom: 1px black solid;
+	z-index: 2;
 }
 
 #commentaire {
