@@ -76,15 +76,26 @@ details summary:hover {
 }
 
 @font-face {
- font-family: "KoineGreek";
- src: url("https://greekcntr.org/downloads/KoineGreek.ttf") format("truetype");
+ font-family: "Marcellus";
+ src: url("font/Marcellus_SC/MarcellusSC-Regular.ttf?raw=true") format("truetype");
  font-display: block;
 }
 
 @font-face {
- font-family: "Marcellus";
- src: url("font/MarcellusSC-Regular.ttf?raw=true") format("truetype");
+ font-family: "KoineGreek";
+ src: url("font/KoineGreek/KoineGreek.ttf?raw=true") format("truetype");
  font-display: block;
+}
+
+@font-face {
+ font-family: "Tinos";
+ src: url("font/Tinos/Tinos-Regular.ttf?raw=true") format("truetype");
+ font-display: block;
+}
+
+body h1 #fr {
+	font-family:  "Marcellus";
+	font-size: 0.99em;
 }
 
 body h1 #grec {
@@ -92,9 +103,9 @@ body h1 #grec {
 	font-size : 28px;
 }
 
-body h1 #fr {
-	font-family:  "Marcellus";
-	font-size: 0.99em;
+body h1 #heb {
+	font-family: "Tinos";
+	font-size: 1.02em;
 }
 
 summary {
