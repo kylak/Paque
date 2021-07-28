@@ -98,9 +98,8 @@ body h1 #fr {
 	font-size: 0.99em;
 }
 
-body h1 #grec {
+.gr {
 	font-family: "KoineGreek";
-	font-size : 28px;
 }
 
 body h1 #heb {
