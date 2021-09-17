@@ -75,6 +75,14 @@ details summary:hover {
 	margin-right: 5px;
 }
 
+#commentaire details {
+	margin-left: 10px;
+}
+
+#commentaire .liste ul {
+	margin-top: 0px;
+}
+
 @font-face {
  font-family: "Marcellus";
  src: url("font/Marcellus_SC/MarcellusSC-Regular.ttf?raw=true") format("truetype");
